@@ -1,0 +1,9 @@
+{
+  "gui.survival_command_block.survival_command_block_gui.button_execute": "Execute",
+  "block.survival_command_block.greater_crafting_table": "Greater Crafting Table",
+  "gui.survival_command_block.survival_command_block_gui.label_empty": "/",
+  "gui.survival_command_block.survival_command_block_gui.EntityTypeToKill": "{entity_name}",
+  "gui.survival_command_block.survival_command_block_gui.button_execute_command": "Execute Command",
+  "gui.survival_command_block.survival_command_block_gui.label_kill_etype": "/kill @e[type\u003d",
+  "gui.survival_command_block.survival_command_block_gui.Command": ""
+}

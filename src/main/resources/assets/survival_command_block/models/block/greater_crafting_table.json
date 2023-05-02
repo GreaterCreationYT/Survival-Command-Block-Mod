@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "survival_command_block:block/greatercraftingtablebottom",
+    "up": "survival_command_block:block/greatercraftingtabletop",
+    "north": "survival_command_block:block/greatercraftingtablefront",
+    "east": "survival_command_block:block/greatercraftingtablefront",
+    "south": "survival_command_block:block/greatercraftingtablefront",
+    "west": "survival_command_block:block/greatercraftingtablefront",
+    "particle": "survival_command_block:block/greatercraftingtablebottom"
+  },
+  "render_type": "solid"
+}

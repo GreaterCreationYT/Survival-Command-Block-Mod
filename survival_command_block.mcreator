@@ -1,0 +1,143 @@
+{
+  "mod_elements": [
+    {
+      "name": "SurvivalCommandBlockGUI",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survival_command_block_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalcommandblock/client/gui/SurvivalCommandBlockGUIScreen.java",
+          "src/main/java/net/mcreator/survivalcommandblock/network/SurvivalCommandBlockGUIButtonMessage.java",
+          "src/main/java/net/mcreator/survivalcommandblock/world/inventory/SurvivalCommandBlockGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenGUIOnCommandBlockUse",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gui_on_command_block_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalcommandblock/procedures/OpenGUIOnCommandBlockUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExecuteCommand",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execute_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalcommandblock/procedures/ExecuteCommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreaterCraftingTableGUI",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greater_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/survivalcommandblock/client/gui/GreaterCraftingTableGUIScreen.java",
+          "src/main/java/net/mcreator/survivalcommandblock/world/inventory/GreaterCraftingTableGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "GreaterCraftingTable",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greater_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/survival_command_block/models/item/greater_crafting_table.json",
+          "src/main/java/net/mcreator/survivalcommandblock/block/entity/GreaterCraftingTableBlockEntity.java",
+          "src/main/resources/assets/survival_command_block/blockstates/greater_crafting_table.json",
+          "src/main/resources/assets/survival_command_block/models/block/greater_crafting_table.json",
+          "src/main/java/net/mcreator/survivalcommandblock/block/GreaterCraftingTableBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.survival_command_block.survival_command_block_gui.button_execute": "Execute",
+      "block.survival_command_block.greater_crafting_table": "Greater Crafting Table",
+      "gui.survival_command_block.survival_command_block_gui.label_empty": "/",
+      "gui.survival_command_block.survival_command_block_gui.EntityTypeToKill": "{entity_name}",
+      "gui.survival_command_block.survival_command_block_gui.button_execute_command": "Execute Command",
+      "gui.survival_command_block.survival_command_block_gui.label_kill_etype": "/kill @e[type\u003d",
+      "gui.survival_command_block.survival_command_block_gui.Command": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "survival_command_block",
+    "modName": "Survival Command Block",
+    "version": "1.0.0",
+    "author": "Administrator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.mcreator.survivalcommandblock",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}

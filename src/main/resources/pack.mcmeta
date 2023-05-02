@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "description": "survival_command_block mod resources",
+    "pack_format": 13,
+    "forge:resource_pack_format": 13,
+    "forge:data_pack_format": 12
+  }
+}
